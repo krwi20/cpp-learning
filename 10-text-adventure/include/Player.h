@@ -15,4 +15,5 @@ public:
     // Actions
     void takeItem(const std::string &item);
     bool hasItem(const std::string &item) const;
+    const std::vector<std::string>& getInventory() const;
 };

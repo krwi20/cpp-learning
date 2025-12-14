@@ -21,3 +21,8 @@ bool Player::hasItem(const std::string &item) const
     }
     return false;
 }
+
+const std::vector<std::string> &Player::getInventory() const
+{
+    return inventory;
+}
