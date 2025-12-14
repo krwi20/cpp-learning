@@ -1,0 +1,3 @@
+C:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/CMakeFiles/adventure.dir
+C:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/CMakeFiles/edit_cache.dir
+C:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+# ninja log v7
+15	274	7874508370974261	CMakeFiles/adventure.dir/src/Enemy.cpp.obj	4b865e9ebc9f574a
+27	406	7874508371089519	CMakeFiles/adventure.dir/src/main.cpp.obj	df733e43d9cafbcf
+25	524	7874508371069474	CMakeFiles/adventure.dir/src/Room.cpp.obj	5bc77ced591f42b2
+22	571	7874508371039308	CMakeFiles/adventure.dir/src/Player.cpp.obj	2cbf128ffc116af
+19	601	7874508371014271	CMakeFiles/adventure.dir/src/Game.cpp.obj	20bb2bed9d8560eb
+601	708	7874508376831893	adventure.exe	edfbdc519697042b
