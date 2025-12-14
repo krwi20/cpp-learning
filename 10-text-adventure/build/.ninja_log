@@ -1,7 +1,17 @@
 # ninja log v7
-15	274	7874508370974261	CMakeFiles/adventure.dir/src/Enemy.cpp.obj	4b865e9ebc9f574a
-27	406	7874508371089519	CMakeFiles/adventure.dir/src/main.cpp.obj	df733e43d9cafbcf
-25	524	7874508371069474	CMakeFiles/adventure.dir/src/Room.cpp.obj	5bc77ced591f42b2
-22	571	7874508371039308	CMakeFiles/adventure.dir/src/Player.cpp.obj	2cbf128ffc116af
-19	601	7874508371014271	CMakeFiles/adventure.dir/src/Game.cpp.obj	20bb2bed9d8560eb
-601	708	7874508376831893	adventure.exe	edfbdc519697042b
+21	294	7874548905660396	CMakeFiles/adventure.dir/src/Enemy.cpp.obj	1792d393a3603c2f
+37	302	7874548905816117	CMakeFiles/runTests.dir/src/Enemy.cpp.obj	6995b047b43d3960
+11	411	7874548905560150	CMakeFiles/adventure.dir/src/main.cpp.obj	a05d3ca0f2f7de79
+18	484	7874548905630166	CMakeFiles/adventure.dir/src/Room.cpp.obj	2d95f2f3712920fc
+34	502	7874548905781141	CMakeFiles/runTests.dir/src/Room.cpp.obj	4e98671eb9de3f61
+15	517	7874548905600153	CMakeFiles/adventure.dir/src/Player.cpp.obj	6e2ffad67f8801c6
+31	526	7874548905761140	CMakeFiles/runTests.dir/src/Player.cpp.obj	7c3e3310c1e324fe
+24	536	7874548905690412	CMakeFiles/adventure.dir/src/Game.cpp.obj	f2a1dadd4c17b3c6
+40	552	7874548905851175	CMakeFiles/runTests.dir/src/Game.cpp.obj	a44f148101cf6121
+536	625	7874548910809289	adventure.exe	484a2a46d6838db4
+28	857	7874548905730399	CMakeFiles/runTests.dir/tests/test_Player.cpp.obj	e1c76a3e07722cf1
+17	172	7874549082427689	build.ninja	f73eb9ea2dfa9c41
+17	172	7874549082427689	C:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/cmake_install.cmake	f73eb9ea2dfa9c41
+17	172	7874549082427689	C:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/CTestTestfile.cmake	f73eb9ea2dfa9c41
+14	10765	7874549082841119	CMakeFiles/runTests.dir/tests/catch_amalgamated.cpp.obj	8baed5bb00bd507b
+10767	11037	7874549190366619	runTests.exe	20dbe1b82e5fbf95

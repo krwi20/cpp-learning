@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: TextAdventure
-# Configurations: Debug
+# Configurations: 
 # =============================================================================
 
 #############################################
@@ -20,11 +20,6 @@
 
 ninja_required_version = 1.5
 
-
-#############################################
-# Set configuration variable for custom commands.
-
-CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -49,59 +44,44 @@ cmake_ninja_workdir = C$:/Users/krili/Documents/Projects/cpp-learning/10-text-ad
 
 build cmake_object_order_depends_target_adventure: phony || .
 
-build CMakeFiles/adventure.dir/src/Enemy.cpp.obj: CXX_COMPILER__adventure_unscanned_Debug C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Enemy.cpp || cmake_object_order_depends_target_adventure
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\adventure.dir\src\Enemy.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
-  OBJECT_DIR = CMakeFiles\adventure.dir
-  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\adventure.dir\
-  TARGET_PDB = adventure.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
-
-build CMakeFiles/adventure.dir/src/Game.cpp.obj: CXX_COMPILER__adventure_unscanned_Debug C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Game.cpp || cmake_object_order_depends_target_adventure
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\adventure.dir\src\Game.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
-  OBJECT_DIR = CMakeFiles\adventure.dir
-  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\adventure.dir\
-  TARGET_PDB = adventure.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
-
-build CMakeFiles/adventure.dir/src/Player.cpp.obj: CXX_COMPILER__adventure_unscanned_Debug C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Player.cpp || cmake_object_order_depends_target_adventure
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\adventure.dir\src\Player.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
-  OBJECT_DIR = CMakeFiles\adventure.dir
-  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\adventure.dir\
-  TARGET_PDB = adventure.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
-
-build CMakeFiles/adventure.dir/src/Room.cpp.obj: CXX_COMPILER__adventure_unscanned_Debug C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Room.cpp || cmake_object_order_depends_target_adventure
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\adventure.dir\src\Room.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
-  OBJECT_DIR = CMakeFiles\adventure.dir
-  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\adventure.dir\
-  TARGET_PDB = adventure.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
-
-build CMakeFiles/adventure.dir/src/main.cpp.obj: CXX_COMPILER__adventure_unscanned_Debug C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/main.cpp || cmake_object_order_depends_target_adventure
-  CONFIG = Debug
+build CMakeFiles/adventure.dir/src/main.cpp.obj: CXX_COMPILER__adventure_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/main.cpp || cmake_object_order_depends_target_adventure
   DEP_FILE = CMakeFiles\adventure.dir\src\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -std=gnu++17
   INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
   OBJECT_DIR = CMakeFiles\adventure.dir
   OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\adventure.dir\
-  TARGET_PDB = adventure.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
+
+build CMakeFiles/adventure.dir/src/Player.cpp.obj: CXX_COMPILER__adventure_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Player.cpp || cmake_object_order_depends_target_adventure
+  DEP_FILE = CMakeFiles\adventure.dir\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
+  OBJECT_DIR = CMakeFiles\adventure.dir
+  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
+
+build CMakeFiles/adventure.dir/src/Room.cpp.obj: CXX_COMPILER__adventure_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Room.cpp || cmake_object_order_depends_target_adventure
+  DEP_FILE = CMakeFiles\adventure.dir\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
+  OBJECT_DIR = CMakeFiles\adventure.dir
+  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
+
+build CMakeFiles/adventure.dir/src/Enemy.cpp.obj: CXX_COMPILER__adventure_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Enemy.cpp || cmake_object_order_depends_target_adventure
+  DEP_FILE = CMakeFiles\adventure.dir\src\Enemy.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
+  OBJECT_DIR = CMakeFiles\adventure.dir
+  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
+
+build CMakeFiles/adventure.dir/src/Game.cpp.obj: CXX_COMPILER__adventure_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Game.cpp || cmake_object_order_depends_target_adventure
+  DEP_FILE = CMakeFiles\adventure.dir\src\Game.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include
+  OBJECT_DIR = CMakeFiles\adventure.dir
+  OBJECT_FILE_DIR = CMakeFiles\adventure.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
 
 
@@ -112,18 +92,102 @@ build CMakeFiles/adventure.dir/src/main.cpp.obj: CXX_COMPILER__adventure_unscann
 #############################################
 # Link the executable adventure.exe
 
-build adventure.exe: CXX_EXECUTABLE_LINKER__adventure_Debug CMakeFiles/adventure.dir/src/Enemy.cpp.obj CMakeFiles/adventure.dir/src/Game.cpp.obj CMakeFiles/adventure.dir/src/Player.cpp.obj CMakeFiles/adventure.dir/src/Room.cpp.obj CMakeFiles/adventure.dir/src/main.cpp.obj
-  CONFIG = Debug
-  FLAGS = -g
+build adventure.exe: CXX_EXECUTABLE_LINKER__adventure_ CMakeFiles/adventure.dir/src/main.cpp.obj CMakeFiles/adventure.dir/src/Player.cpp.obj CMakeFiles/adventure.dir/src/Room.cpp.obj CMakeFiles/adventure.dir/src/Enemy.cpp.obj CMakeFiles/adventure.dir/src/Game.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\adventure.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\adventure.dir\
   TARGET_FILE = adventure.exe
   TARGET_IMPLIB = libadventure.dll.a
-  TARGET_PDB = adventure.pdb
+  TARGET_PDB = adventure.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\adventure.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target runTests
+
+
+#############################################
+# Order-only phony target for runTests
+
+build cmake_object_order_depends_target_runTests: phony || .
+
+build CMakeFiles/runTests.dir/tests/test_Player.cpp.obj: CXX_COMPILER__runTests_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests/test_Player.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles\runTests.dir\tests\test_Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\runTests.dir
+
+build CMakeFiles/runTests.dir/tests/catch_amalgamated.cpp.obj: CXX_COMPILER__runTests_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests/catch_amalgamated.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles\runTests.dir\tests\catch_amalgamated.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\tests
+  TARGET_SUPPORT_DIR = CMakeFiles\runTests.dir
+
+build CMakeFiles/runTests.dir/src/Player.cpp.obj: CXX_COMPILER__runTests_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Player.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles\runTests.dir\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\runTests.dir
+
+build CMakeFiles/runTests.dir/src/Room.cpp.obj: CXX_COMPILER__runTests_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Room.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles\runTests.dir\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\runTests.dir
+
+build CMakeFiles/runTests.dir/src/Enemy.cpp.obj: CXX_COMPILER__runTests_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Enemy.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles\runTests.dir\src\Enemy.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\runTests.dir
+
+build CMakeFiles/runTests.dir/src/Game.cpp.obj: CXX_COMPILER__runTests_unscanned_ C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/src/Game.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles\runTests.dir\src\Game.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/include -IC:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/tests
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles\runTests.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\runTests.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target runTests
+
+
+#############################################
+# Link the executable runTests.exe
+
+build runTests.exe: CXX_EXECUTABLE_LINKER__runTests_ CMakeFiles/runTests.dir/tests/test_Player.cpp.obj CMakeFiles/runTests.dir/tests/catch_amalgamated.cpp.obj CMakeFiles/runTests.dir/src/Player.cpp.obj CMakeFiles/runTests.dir/src/Room.cpp.obj CMakeFiles/runTests.dir/src/Enemy.cpp.obj CMakeFiles/runTests.dir/src/Game.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\runTests.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = runTests.exe
+  TARGET_IMPLIB = librunTests.dll.a
+  TARGET_PDB = runTests.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\runTests.dir
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\krili\Documents\Projects\cpp-learning\10-text-adventure\build && C:\mingw64\bin\ctest.exe "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
 
 
 #############################################
@@ -153,6 +217,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build adventure: phony adventure.exe
 
+build runTests: phony runTests.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -161,7 +227,7 @@ build adventure: phony adventure.exe
 #############################################
 # Folder: C:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build
 
-build all: phony adventure.exe
+build all: phony adventure.exe runTests.exe
 
 # =============================================================================
 # Built-in targets
@@ -170,14 +236,14 @@ build all: phony adventure.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/cmake_install.cmake: RERUN_CMAKE | C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/CMakeLists.txt C$:/mingw64/share/cmake-4.2/Modules/CMakeCCompiler.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeCCompilerABI.c C$:/mingw64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeRCCompiler.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystem.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestRCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeInspectCLinker.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-Determine-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake
+build build.ninja C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/cmake_install.cmake C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/build/CTestTestfile.cmake: RERUN_CMAKE | C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/CMakeLists.txt C$:/mingw64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/CMakeLists.txt C$:/mingw64/share/cmake-4.2/Modules/CMakeCCompiler.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeCCompilerABI.c C$:/mingw64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeRCCompiler.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystem.cmake.in C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeTestRCCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeInspectCLinker.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-Determine-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake: phony
+build C$:/Users/krili/Documents/Projects/cpp-learning/10-text-adventure/CMakeLists.txt C$:/mingw64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.0/CMakeCCompiler.cmake CMakeFiles/4.2.0/CMakeCXXCompiler.cmake CMakeFiles/4.2.0/CMakeRCCompiler.cmake CMakeFiles/4.2.0/CMakeSystem.cmake: phony
 
 
 #############################################
