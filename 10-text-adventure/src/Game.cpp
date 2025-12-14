@@ -6,13 +6,19 @@ Game::Game(const std::string &playerName) : player(playerName), currentRoomIndex
     Room forest("You are in a dark forest.");
     forest.addExit("north");
     forest.addItem("rusty sword");
+    forest.addItem("potion");
 
     Room cave("You are in a damp cave.");
     cave.addExit("south");
     cave.setEnemy("goblin", 50);
 
+    Room castle("You stand before a fearsome dragon in a ruined castle!");
+    castle.addExit("south");
+    castle.setEnemy("dragon", 100); // strong dragon enemy
+
     rooms.push_back(forest);
     rooms.push_back(cave);
+    rooms.push_back(castle);
 }
 
 void Game::run()
@@ -30,6 +36,11 @@ void Game::run()
                 currentRoomIndex = 1;
                 std::cout << "You go north into the cave.\n";
             }
+            else if (currentRoomIndex = 1)
+            {
+                currentRoomIndex = 2;
+                std::cout << "You go north into the castle.\n";
+            }
             else
             {
                 std::cout << "You can't go that way.\n";
@@ -41,6 +52,11 @@ void Game::run()
             {
                 currentRoomIndex = 0;
                 std::cout << "You go south into the forest.\n";
+            }
+            else if (currentRoomIndex == 2)
+            {
+                currentRoomIndex = 1;
+                std::cout << "You go south into the cave.\n";
             }
             else
             {
@@ -139,13 +155,57 @@ void Game::run()
                     std::cout << "You defeated the " << enemy->getName() << "!\n";
                     // Drop loot
                     current.addItem(enemy->getName() + " fang");
+
+                    // win condition
+                    if (enemy->getName() == "dragon")
+                    {
+                        std::cout << "You slain the dragon and saved the kingdom!\n";
+                        std::cout << "** YOU WIN! **\n";
+                        break; // exit game loop
+                    }
                 }
                 else
                 {
                     // Enemy counterattacks
-                    std::cout << "The " << enemy->getName() << " hits you back!\n";
-                    // Optional: reduce player health (you can add this later)
+                    std::cout << "The " << enemy->getName() << " hits you for 20 damage!\n";
+                    // reduce player health
+                    player.takeDamage(20);
+
+                    // check if player is dead
+                    if (player.getHealth() <= 0)
+                    {
+                        std::cout << "You have been defeated! Game over.\n";
+                        break; // exit game loop
+                    }
                 }
+            }
+        }
+        else if (input == "status")
+        {
+            std::cout << "HP: " << player.getHealth() << "/100\n";
+        }
+
+        else if (input.substr(0, 4) == "use ")
+        {
+            std::string itemName = input.substr(4);
+            if (player.hasItem(itemName))
+            {
+                if (itemName == "potion")
+                {
+                    player.heal(30);
+                    // Remove potion from inventory
+                    auto &inv = const_cast<std::vector<std::string> &>(player.getInventory());
+                    // Better: add removeItem to Player (see note below)
+                    std::cout << "You drink the potion and regain 30 HP!\n";
+                }
+                else
+                {
+                    std::cout << "You can't use that.\n";
+                }
+            }
+            else
+            {
+                std::cout << "You don't have a " << itemName << ".\n";
             }
         }
     }

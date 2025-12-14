@@ -15,5 +15,9 @@ public:
     // Actions
     void takeItem(const std::string &item);
     bool hasItem(const std::string &item) const;
-    const std::vector<std::string>& getInventory() const;
+    const std::vector<std::string> &getInventory() const;
+    int getHealth() const;
+    void takeDamage(int damage);
+    void heal(int amount);
+    bool removeItem(const std::string &item);
 };
